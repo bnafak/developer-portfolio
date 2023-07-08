@@ -14,11 +14,11 @@ body {
   font-size: 20px;
 }
 
-nav { 
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 200px;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 200px;
 }
 .nav-title {
   color: #181818;
@@ -41,37 +41,62 @@ nav a {
   counter-reset: #474747;
 }
 /* header related style  */
-.header{
- /* background-color: white; */
- background-image: url("../images/header_bg.png");
- background-position: bottom right;
- background-repeat: no-repeat;
+.header {
+  /* background-color: white; */
+  background-image: url("../images/header_bg.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 /* .header{
     background-image: url("../images/developer.png");
     background-position: top left;
     background-repeat: no-repeat;
    } */
-.banner{
-    display: inline;
-    align-items: center;
-    padding: 50px 50px 50px 150px;
+.banner {
+  display: inline;
+  align-items: center;
+  padding: 50px 50px 50px 150px;
 }
-.baner-big{
-    display: flex;
+.baner-big {
+  display: flex;
 }
 /* main section styles */
+.section-title {
+  color: var(--dark-01, #181818);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 35px;
+  line-height: normal;
+}
 
-
-
-
-
-
+.section-description {
+  color:#757575);
+  text-align: center;
+  font-size: 18px;
+  
+}
 
 /* About section slyles */
-.about{
-    padding: 130px;
-    border-radius:10px ;
-    color: rgb(100, 34, 154);
-
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  color: rgb(100, 34, 154);
 }
+ /* 2nd section  */
+ .container{
+  display: flex;
+ }
+
+ .container-2{
+  display: flex;
+ }
+
+ .container-3{
+  display: flex;
+ }
+ .container-4{
+  display: flex;
+ }
+ .container-5{
+  display: flex;
+ }
